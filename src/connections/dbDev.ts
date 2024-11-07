@@ -20,6 +20,6 @@ export const DevDataSource = new DataSource({
     database: "unifan_pds_tils",
     entities: [Task],
     extra: {
-        options: "-c statement_timeout=30000ms -c search_parth=monsters",
+        options: "-c statement_timeout=50000ms -c search_parth=monsters",
     },
 })
